@@ -1,0 +1,81 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header.token-header {
+  text-align: center;
+  padding: 50px 20px 20px;
+}
+
+header.token-header img {
+  width: 100px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+header.token-header h1 {
+  font-size: 28px;
+  margin-top: 20px;
+  color: #ff007a;
+}
+
+.token-section {
+  max-width: 800px;
+  margin: 30px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.token-section p {
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.token-section code {
+  background-color: #eee;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  display: inline-block;
+  word-break: break-all;
+}
+
+.token-section a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.token-section a:hover {
+  text-decoration: underline;
+}
+
+.token-section .btn {
+  display: inline-block;
+  background-color: #ff007a;
+  color: #fff;
+  padding: 12px 26px;
+  margin-top: 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.token-section .btn:hover {
+  background-color: #d9006a;
+}
+
+@media screen and (max-width: 600px) {
+  .token-section {
+    padding: 20px;
+  }
+}
